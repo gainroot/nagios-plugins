@@ -19,11 +19,23 @@ You'll need to have Nagios up and running before you can add these plugins.
 
 http://nagios.sourceforge.net/docs/3_0/quickstart.html
 
+Configuration Files
+-------------------
+The following Config Files belong (edited) in the Nagios `etc` directory
+(usually `/usr/local/nagios/etc` on most systems).
+
+## etc/devices/RoomAlert24E.cfg
+This Config File is a good starting point for monitoring the output from
+a RoomAlert 24E device.
+
+The included examples cover the channels and switches I have installed.
+
 Plugins
 -------
+The following plugin(s) belong in the Nagios `libexec` directory (usually
+`/usr/local/nagios/libexec` on most systems).
 
-
-## check_sw_vpn_tunnels
+## `check_sw_vpn_tunnels`
 This plugin script checks a SonicWall for the number of VPN/IPSec tunnels
 that are currently open and reports back to Nagios.
 
