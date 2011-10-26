@@ -31,10 +31,6 @@ If Warning and Critical thresholds are provided, the script will send
 back a warning or critical message.
 
      check_sw_vpn_tunnels v1.0.0 (nagios-plugins 1.4.15)
-     The nagios plugins come with ABSOLUTELY NO WARRANTY. You may redistribute
-     copies of the plugins under the terms of the GNU General Public License.
-     For more information about these matters, see the file named COPYING.
-     
      This plugin checks the number of IPSec tunnels in use on a SonicWall system.
      Tested with an NSA4500
      
