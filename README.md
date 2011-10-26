@@ -3,8 +3,10 @@ nagios-plugins
 
 	Introduction
 	Requirements
+	Configuration Files
+	    * etc/devices/RoomAlert24E.cfg
 	Plugins
-	    * check_sw_vpn_tunnels
+	    * libexec/check_sw_vpn_tunnels
 	To-do List
 
 Introduction
@@ -35,7 +37,7 @@ Plugins
 The following plugin(s) belong in the Nagios `libexec` directory (usually
 `/usr/local/nagios/libexec` on most systems).
 
-## `check_sw_vpn_tunnels`
+## check_sw_vpn_tunnels
 This plugin script checks a SonicWall for the number of VPN/IPSec tunnels
 that are currently open and reports back to Nagios.
 
