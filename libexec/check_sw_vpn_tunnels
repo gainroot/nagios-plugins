@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Author: J Gifford
+# Acknowledgement is given to E2G for use of their SonicWall for testing
+
+# Can be used in Nagios to check a SonicWall's IPSec tunnels
+
 ########
 # Example Service Definition
 #
